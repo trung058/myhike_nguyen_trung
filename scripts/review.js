@@ -1,3 +1,5 @@
+
+const db = firebase.firestore();
 var hikeDocID = localStorage.getItem("hikeDocID");    //visible to all functions on this page
 function getHikeName(id) {
     db.collection("hikes")
